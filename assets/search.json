@@ -1,0 +1,49 @@
+
+
+[
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      {
+        "title": "Experience at KJSCE Hack 4.O",
+        "excerpt": "In this blog, I will share my experience at KJSCE Hackathon 2019. first, let me explain what is a hackathon and if you already know than skip the next 5-6 lines.\n\n",
+        "content": "In this blog, I will share my experience at KJSCE Hackathon 2019. first, let me explain what is a hackathon and if you already know than skip the next 5-6 lines.\n\nHackathon’s are of a various type depending on time for example 12hr, 24hr, 48hr or they can be different by themes like hardware and software hackathons. They are generally development based event where you have to create a working product which aim’s to solve our day to day problem. Also it should be created within a time-bound given to you. It is a team-based event, generally a team of four. This much intro is enough for you to understand what is a hackathon, so lets start with my experience.\n\nIt was a 24hr Hackathon organized by KJSCE Codecell. My team name for the Hackathon was EUREKA, and the members were Nishit (myself) , Manan , Ali and Pathik. We were the only team from first year. As it was the first time we were participating in such event, so our goal was simple, we wanted to learn and connect with the people instead of racing for win.\n\nThe Coding Period began on 5th Oct at noon and our idea was to make a Hospital Management System website which was named as Hospipro. Then next task was to select a good tech stack to create Hospipro. We all agreed upon to use Django framework as our main tech stack. I was working on the Backend Development for the Website, it includes tasks like creating a login page for the doctor, patient list view, updates patient profile and creating different database models. Manan was working on the Frontend his task includes of web-design. Ali was developing the android version of our website using Kotlin language. Pathik Was given the task of creating a logo’s, ppt’s etc required for final judging round.\n\n24hr seems to be lot of time but when we began with our work only then we realized its definelty not lot of time. Myself and my teammates were continuously coding for 24hrs straight day and night with just a nap of 2hrs. I enjoyed the mix of friendly as well as competetive enviroment of hackathon, and plan to participate in more such hackathons.\n\nOur product Hospipro included features like:\n\n  Secure Login Portal\n  Even when patients are unconscious we can scan the generated QR code from their IDs\n  The ability for doctors to update patients profile with their profile picture\n  The doctor can easily handle information of their patients in just one click\n  Patients can also have access to their medical history\n\n\nScreenshots\n\n\n\nI noticed that most of the teams were using new and easy to build tech stack like Flask, nodejs etc for the backend, and during the judging round. I would like to suggest that, if you are planning to participate in your first hackathon then do make some pre-preparation regarding the idea and how you are going to implement it.\n\nSource Code of Hospipro  github\n\n\nImages taken during Hackathon\n\n\n\n",
+        "url": "/kjsce-hack/2019/10/08/experience-at-kjsce-hack.html"
+      },
+    
+      {
+        "title": "Beginning my GSoC Journey",
+        "excerpt": "This is going to be an introductory blog where I will talk about the project on which I’ll be working this summer in GNOME Foundation.\n",
+        "content": "This was my reaction after finding out that I was selected for GSoC :)\n\n\n\nsource: Giphy\n\n\nI am starting a new blog series, for covering my GSoC’21 journey with GNOME Foundation. This is going to be an introductory blog where I will talk about the project on which I’ll be working this summer. Before we get started let me introduce myself to the folks reading from the GNOME planet. I am Nishit Patel, an undergraduate Computer Engineering student from India.\n\nI began my pre GSoC journey back in November 2020 when I opened my first MR in tracker project. It was a small bug fix in the README.md file which I came across while setting up my local environment. Later, I began keeping a watch on the #tracker IRC and used to ask maintainers for help whenever I was stuck at something. Maintainers were very helpful and polite with their prompt replies even if I was asking some stupid question that was already addressed somewhere in the documentation. One thing that I noticed is it is better to first google, and check the docs before asking the question as it saves the maintainers precious time, and you also get to learn something new in the process.\n\nProject details\n\nI will be working on the Tracker-miner project which is an indexer, and also used for extracting the metadata from different file formats. Tracker currently doesn’t store the creation time in the database as it was historically not tracked on UNIX file systems, and it’s not part of POSIX specification. However, Since kernel version 4.11 the new statx system call provides the file creation timestamp. Based on this, the project aims to provide the support of storing file creation time in the tracker database and later, provide the feature of searching by creation time in Nautilus.\n\nI will be writing short posts as and when I get time in between so\n\n\n\nsource: Giphy\n\n",
+        "url": "/gsoc'21/2021/05/31/start-of-gsoc-jouney.html"
+      },
+    
+      {
+        "title": "GSoC Project update",
+        "excerpt": "Weekly update of GSoC’21 project. Include’s work done on week 1, 2 and 3.\n",
+        "content": "This is a weekly update of my GSoC project.\n\nWeek 1\n\nFollowing the proposed schedule, I began working on the first milestone, i.e Adding support for creation time in tracker-miners. While building the tracker-miner I discovered crashes in the indexer. After taking some help from mentors and debugging,\nIt was found that a double-free bug in the indexer was causing the crash. As the piece of code was unused, it went unnoticed.\n\nMerge Requests: !440\n\nWeek 2\n\nDuring 2nd week, Most of the time was spent writing code. I was also working on resolving threads in the merge requests which were opened before GSoC.\n\nMerge Requests: !327\n\nWeek 3\n\nOpend Draft MR for the first milestone, and fixed some of the coverity warnings which were introduced after merging !327.\n\nMerge Requests:\n!336,\n !340\n",
+        "url": "/gsoc'21/2021/06/29/gsoc-project-update.html"
+      },
+    
+  
+  
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": "\n",
+    "url": "/categories.html"
+  }
+  
+]
+
